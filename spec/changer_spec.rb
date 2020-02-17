@@ -14,6 +14,10 @@ describe Changer do
     expect(Changer.new.change(3)).to eq([1, 1, 1])
   end
 
+  it 'returns 1 knickle for 5' do
+    expect(Changer.new.change(5)).to eq([5])
+  end
+
 
 
 end
