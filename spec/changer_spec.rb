@@ -10,4 +10,10 @@ describe Changer do
     expect(Changer.new.change(1)).to eq([1])
   end
 
+  it 'returnss 3 pennies for 3' do
+    expect(Changer.new.change(3)).to eq([3])
+  end
+
+
+
 end
