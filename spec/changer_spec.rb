@@ -11,7 +11,7 @@ describe Changer do
   end
 
   it 'returnss 3 pennies for 3' do
-    expect(Changer.new.change(3)).to eq([3])
+    expect(Changer.new.change(3)).to eq([1, 1, 1])
   end
 
 
