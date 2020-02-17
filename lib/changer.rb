@@ -1,4 +1,5 @@
 class Changer
-  def change
+  def change(amount)
+    [1]
   end
-end 
+end
