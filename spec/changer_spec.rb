@@ -10,7 +10,7 @@ describe Changer do
     expect(Changer.new.change(1)).to eq([1])
   end
 
-  it 'returnss 3 pennies for 3' do
+  it 'returns 3 pennies for 3' do
     expect(Changer.new.change(3)).to eq([1, 1, 1])
   end
 
@@ -22,6 +22,9 @@ describe Changer do
     expect(Changer.new.change(10)).to eq([10])
   end
 
+  it 'returns 2 dimes for 20' do
+    expect(Changer.new.change(20)).to eq([10, 10])
+  end
 
 
 end
