@@ -18,6 +18,10 @@ describe Changer do
     expect(Changer.new.change(5)).to eq([5])
   end
 
+  it 'returns 1 dime for 10' do
+    expect(Changer.new.change(10)).to eq([10])
+  end
+
 
 
 end
